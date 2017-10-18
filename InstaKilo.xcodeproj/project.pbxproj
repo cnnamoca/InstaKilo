@@ -15,6 +15,8 @@
 		E604558C1F97DB6C00D95136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E604558B1F97DB6C00D95136 /* main.m */; };
 		E60455961F97DB6C00D95136 /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E60455951F97DB6C00D95136 /* InstaKiloTests.m */; };
 		E60455A11F97DB6C00D95136 /* InstaKiloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E60455A01F97DB6C00D95136 /* InstaKiloUITests.m */; };
+		E60455B01F97DFD700D95136 /* myCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E60455AF1F97DFD700D95136 /* myCollectionViewCell.m */; };
+		E60455B31F97EEF400D95136 /* myCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60455B21F97EEF400D95136 /* myCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E604559C1F97DB6C00D95136 /* InstaKiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60455A01F97DB6C00D95136 /* InstaKiloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloUITests.m; sourceTree = "<group>"; };
 		E60455A21F97DB6C00D95136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60455AE1F97DFD700D95136 /* myCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myCollectionViewCell.h; sourceTree = "<group>"; };
+		E60455AF1F97DFD700D95136 /* myCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCollectionViewCell.m; sourceTree = "<group>"; };
+		E60455B11F97EEF400D95136 /* myCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myCollectionReusableView.h; sourceTree = "<group>"; };
+		E60455B21F97EEF400D95136 /* myCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				E604557F1F97DB6C00D95136 /* ViewController.h */,
 				E60455801F97DB6C00D95136 /* ViewController.m */,
 				E60455821F97DB6C00D95136 /* Main.storyboard */,
+				E60455B11F97EEF400D95136 /* myCollectionReusableView.h */,
+				E60455B21F97EEF400D95136 /* myCollectionReusableView.m */,
+				E60455AE1F97DFD700D95136 /* myCollectionViewCell.h */,
+				E60455AF1F97DFD700D95136 /* myCollectionViewCell.m */,
 				E60455851F97DB6C00D95136 /* Assets.xcassets */,
 				E60455871F97DB6C00D95136 /* LaunchScreen.storyboard */,
 				E604558A1F97DB6C00D95136 /* Info.plist */,
@@ -267,7 +277,9 @@
 			files = (
 				E60455811F97DB6C00D95136 /* ViewController.m in Sources */,
 				E604558C1F97DB6C00D95136 /* main.m in Sources */,
+				E60455B01F97DFD700D95136 /* myCollectionViewCell.m in Sources */,
 				E604557E1F97DB6C00D95136 /* AppDelegate.m in Sources */,
+				E60455B31F97EEF400D95136 /* myCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
