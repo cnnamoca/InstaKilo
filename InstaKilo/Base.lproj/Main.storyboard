@@ -83,7 +83,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="fJW-Ji-QOG">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="play" id="V1g-fe-aAI">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="V1g-fe-aAI">
                             <connections>
                                 <action selector="sortButton:" destination="BYZ-38-t0r" id="12A-Dp-gmz"/>
                             </connections>
